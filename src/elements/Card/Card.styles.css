@@ -1,0 +1,7 @@
+/* Card styles */
+
+.card {
+    background:  rgba(255,255,255,1);
+    box-shadow: 0 1.6rem 2.4rem rgba(88, 77, 110, 0.3);
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Roboto:400,900|Roboto+Mono:500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code, pre {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}

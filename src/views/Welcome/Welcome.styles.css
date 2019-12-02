@@ -1,0 +1,24 @@
+.welcome {
+    height: 100vh;
+    width: 100vw;
+    background: #ff7661;
+}
+
+.welcome__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.welcome__card {
+    padding: 24px;
+}
+
+.welcome__headline {
+    color: yellow;
+    font-size: 80px;
+    line-height: 80px;
+    margin: 24px;
+}

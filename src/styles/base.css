@@ -1,0 +1,10 @@
+.layout__container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.typography__headline {
+      font-family: 'Faster One', cursive;
+        font-weight: 400;
+}
+  
