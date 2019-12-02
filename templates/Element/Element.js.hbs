@@ -1,0 +1,24 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import './{{pascalCase name}}.styles.css'
+
+const {{pascalCase name}} = ({
+    className,
+}) => {
+    const rootStyles = `${className} {{lowerCase name}}`
+    return (
+        <div className={rootStyles}>
+            {{pascalCase name}}
+        </div>
+    )
+}
+
+{{pascalCase name}}.defaultProps = {
+
+}
+
+{{pascalCase name}}.propTypes = {
+    className: PropTypes.string,
+}
+
+export default {{pascalCase name}}
