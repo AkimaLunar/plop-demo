@@ -3,7 +3,9 @@
 1. Add plop to dev dependencies
 `yarn add -D plop`
 
-2. Create plopfile.js
+2. Create your Handlebar templates in `./templates` directory
+
+3. Create `plopfile.js`
 
 ```JS
 module.exports = function (plop) {
@@ -36,10 +38,10 @@ module.exports = function (plop) {
                 type: 'add',
 
                 // (3.2) Template path
-                path: 'src/constructs/{{pascalCase name}}/{{pascalCase name}}.js',
+                path: '',
 
                 // (3.3) Template source
-                templateFile: 'templates/Component/component.js.hbs'
+                templateFile: ''
             }
         ]
     });
@@ -55,4 +57,4 @@ module.exports = function (plop) {
     }
 ```
 
-… and run `yarn generate component`
+… and run `yarn generate [GENERATOR NAME]`
