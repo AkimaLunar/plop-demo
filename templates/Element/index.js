@@ -2,7 +2,7 @@ module.exports = {
     description: 'Generate Element, single-purpose atomic component.',
     prompts: [
         {
-            input: 'input',
+            type: 'input',
             name: 'name',
             message: 'Element name now, please!',
         }
