@@ -18,7 +18,7 @@ module.exports = function (plop) {
         prompts: [
             {
                 // (2.1) Input type
-                input: '', // 'input' | 'number' | 'confirm' | 'list' | 'rawlist' |
+                type: '', // 'input' | 'number' | 'confirm' | 'list' | 'rawlist' |
                         // 'expand' | 'checkbox' | 'password' | 'editor'
                 
                 // (2.2) Key used in templates
